@@ -1,0 +1,39 @@
+{
+  "timeZone": "America/Sao_Paulo",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Docs",
+        "serviceId": "docs",
+        "version": "v1"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "OAuth2",
+        "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+        "version": "41"
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/userinfo.profile",
+    "https://www.googleapis.com/auth/documents.currentonly"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Revisor de Linguagem Inclusiva",
+      "logoUrl": "https://github.com/saravegga/chitchat/blob/main/Icon-128-v2.png?raw=true",
+      "layoutProperties": {
+        "primaryColor": "#2772ed"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepageLoad"
+      }
+    },
+    "docs": {}
+  }
+}
